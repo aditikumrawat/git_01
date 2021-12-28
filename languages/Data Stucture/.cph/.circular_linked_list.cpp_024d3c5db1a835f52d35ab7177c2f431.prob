@@ -1,0 +1,1 @@
+{"name":"Local: circular_linked_list","url":"c:\\Users\\ADITI\\Desktop\\languages\\Data Stucture\\circular_linked_list.cpp","tests":[{"id":1638668499357,"input":"","output":"10 20 30 40 60 80 \n40"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\ADITI\\Desktop\\languages\\Data Stucture\\circular_linked_list.cpp","group":"local","local":true}

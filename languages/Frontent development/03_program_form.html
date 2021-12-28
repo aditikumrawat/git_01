@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML_programming_03</title>
+</head>
+<body>
+    <center>
+        <h1>Employee Registration Form</h1>
+        <table >
+            <tbody>
+                <tr>
+                    <td><b>Salutation</b></td>
+                    <td>
+                        <input type="radio" name="Mr">
+                        <label>Mr</label>
+                        <input type="radio" name="Mrs">
+                        <label>Mrs</label>
+                        <input type="radio" name="Ms">
+                        <label>Ms</label>
+                    </td>
+                <tr>
+                        <td>First Name:</td>
+                        <td>
+                          <input type="text" placeholder="First Name">
+                        </td>
+                </tr>
+                <tr>
+                    <td>Last Name:</td>
+                    <td>
+                        <input type="text" placeholder="Last Name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mail Address 1:</td>
+                    <td>
+                        <input type="email" placeholder="ex_name@gmail.com" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mail Address 2:</td>
+                    <td>
+                        <input type="email" placeholder="ex_name@gmail.com" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>City:</td>
+                    <td><input type="text">  </td>
+                </tr> 
+                <tr>
+                    <td>State:</td>
+                    <td>
+                        <input list="browser" name="browser">
+                         <datalist id="browser">
+                             <option value="Madhya pradesh"></option>
+                             <option value="Maharastra"></option>
+                             <option value="Uttar pradesh"></option>
+                             <option value="Uttar pradesh"></option>
+                             <option value="Kerala"></option>
+                             <option value="Karnataka"></option>
+                             <option value="Assam"></option>
+                             <option value="Goa"></option>
+                         </datalist>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Zip:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Upload Photo:</td>
+                    <td>
+                     <input type="submit" name="Upload Photo" placeholder="choose file"> No file choosen</td>
+                </tr>
+                <tr>
+                    <td>E-Mail:</td>
+                    <td><input type="email" placeholder="ex_name@gmail.com"></td>
+                </tr>
+                <tr>
+                    <td>Mobile Number:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Language known:</td>
+                    <td>
+                        <input type="checkbox" name="gujarati" >Gujarati <br>
+                        <input type="checkbox" name="Hindi" >Hindi <br>
+                        <input type="checkbox" name="English" >English<br>
+                        <input type="checkbox" name="Marathi" >Marathi<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Additional information:</td>
+                    <td><textarea name="additional information" cols="30" rows="5"></textarea></td>
+
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit">
+                    <input type="submit">
+                </td>
+                </tr>
+            </tbody>
+        </table>
+    </center>
+</body>
+</html>

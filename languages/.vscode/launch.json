@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) Attach",
+            "type": "cppdbg",
+            "request": "attach",
+            "program": "enter program name, for example ${workspaceFolder}/a.exe",
+            "processId": "${command:pickProcess}",
+            "MIMode": "gdb",
+            "miDebuggerPath": "/path/to/gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Launch right_shift",
+            "request": "launch",
+            "mainClass": "right_shift",
+            "projectName": "languages_55d06b55"
+        },
+        {
+            "type": "java",
+            "name": "Launch weak_day",
+            "request": "launch",
+            "mainClass": "weak_day",
+            "projectName": "languages_55d06b55"
+        },
+        {
+            "type": "java",
+            "name": "Launch Vowel_founder_switch",
+            "request": "launch",
+            "mainClass": "Vowel_founder_switch",
+            "projectName": "languages_55d06b55"
+        },
+        {
+            "type": "java",
+            "name": "Launch left_shift",
+            "request": "launch",
+            "mainClass": "left_shift",
+            "projectName": "languages_55d06b55"
+        },
+        {
+            "type": "java",
+            "name": "Launch calculator",
+            "request": "launch",
+            "mainClass": "calculator",
+            "projectName": "languages_55d06b55"
+        },
+        {
+            "name": "(Windows) Launch",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "enter program name, for example ${workspaceFolder}/a.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "console": "externalTerminal"
+        }
+    ]
+}
