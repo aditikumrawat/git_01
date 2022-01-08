@@ -1,0 +1,1 @@
+{"name":"Local: lead_game","url":"c:\\Users\\ADITI\\Desktop\\cp\\lead_game.cpp","tests":[{"id":1641192423719,"input":"5\n140 180\n21  10\n150 130\n50  90\n80  90","output":"1 58"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\ADITI\\Desktop\\cp\\lead_game.cpp","group":"local","local":true}

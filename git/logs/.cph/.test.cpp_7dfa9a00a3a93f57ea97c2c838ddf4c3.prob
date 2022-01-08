@@ -1,0 +1,1 @@
+{"name":"Local: test","url":"c:\\Users\\ADITI\\Desktop\\git\\logs\\test.cpp","tests":[{"id":1641131579378,"input":"3\n4\n1 1 2 2\n4\n-1 1 2 1\n3\n0 0 -1","output":"4\n3\n2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\ADITI\\Desktop\\git\\logs\\test.cpp","group":"local","local":true}

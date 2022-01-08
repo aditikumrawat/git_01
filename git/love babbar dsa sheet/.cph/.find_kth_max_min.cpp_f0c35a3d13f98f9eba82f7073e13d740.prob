@@ -1,0 +1,1 @@
+{"name":"Local: find_kth_max_min","url":"c:\\Users\\ADITI\\Desktop\\git\\love babbar dsa sheet\\find_kth_max_min.cpp","tests":[{"id":1640842075346,"input":"6 3\n5 7 -1 9 3 4","output":"4 5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\ADITI\\Desktop\\git\\love babbar dsa sheet\\find_kth_max_min.cpp","group":"local","local":true}
